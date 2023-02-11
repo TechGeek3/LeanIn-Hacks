@@ -1,0 +1,56 @@
+* {
+    overflow-x: hidden;
+}
+.navbar-light .navbar-brand {
+    color: #DE898E;
+    font-size: 24px;
+    margin-left: 5%;
+    width: 60%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #DE898E;
+    font-size: 24px;
+    padding-right: 30px;
+}
+
+.btn-primary {
+    border-radius: 100px;
+    width: 135px;
+    height: 57px;
+}
+
+.section1 {
+    background-color: #DE898E;
+    border-color: #DE898E;
+}
+
+.title {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+
+}
+
+.card_blog {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top: 20px;
+}
+
+.card1 {
+    background-color: #F9EAEB;
+}

@@ -11,6 +11,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="style_blogs.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
     <title>Momature</title>
     <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -19,7 +20,7 @@
 <body>
 
     <!--NAVBAR-->
-    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+    <!-- <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
         <a class="navbar-brand" href="#">
             <img src="assets/momature.png" width="50" height="50" class="d-inline-block align-top" alt="">
             Momature
@@ -40,7 +41,35 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
+    <div class="container-fluid px-0"><!--NAVBAR-->
+
+        <section class="home" style="background-image: url('assets/bg2.png');">
+            <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+              <a class="navbar-brand" href="#">
+                <img src="assets\logo.png" style="width: 100%; height: auto;" class="d-inline-block align-top" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3"
+                aria-controls="collapsingNavbar3" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Community</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
 
     <!--CONTAINER 1-->
     <div class="row bg-container">
@@ -52,7 +81,7 @@
         <div class="col-2"></div>
         <div class="col-6 pt-5">
             <div>
-                <h3><strong>Explore our blogs</strong></h3>
+                <p style="font-size: 3rem;"><strong>Explore our blogs</strong></p>
                 <p class="pt-4">So where do you go when you want more? Below are some blogs that are <br> popular among
                     pregnant mamas. </p>
 
@@ -62,31 +91,17 @@
         </div>
 
     </div>
-
-    <!--BLOGS CARDS-->
-    <!-- <div class="card_blog">
-        <div class="row ">
-            <div class="col-md-7 px-3">
-                <div class="card-block px-6">
-                    <h4 class="card-title">Exercise</h4>
-                    <p class="card-text">
-
-                    </p>
-                    <p class="card-text">Made for usage, commonly searched for. Fork, like and use it. Just move the
-                        carousel div above the col containing the text for left alignment of images</p>
-                    <br>
-                    <a href="#" class="mt-auto btn btn-primary ">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
+    </section>
+    
     <!--BLOG CARDS-->
-    <div class="container">
+    <div class="container-xxl mx-5 my-5">
         <div class="row card1">
-            <h3><strong>Exercise</strong></h3>
-            <div class="col-8 pt-5">
+            <div style="height: 10%;">
+                <p class="ml-5 pt-3" style="font-size: 1.5rem;"><strong>Exercise</strong></p>
+            </div>
+            <div class="col-5 pt-5">
                 <p>Exercise has innumerable health benefits. At all stages of your life, you stand to gain by adhering to a strict exercise regimen. And yes, you definitely need to exercise while you are pregnant. But not all exercises are suitable for you during this time. You have to cherry-pick a few that will benefit both you and your baby. Wondering which exercises will not exert too much pressure on your body at this delicate stage? Read on to find all the answers.</p>
+                <button type="button" class="btn mt-2 mb-4" style="background-color: #DE898E; border-radius: 100px;">Read More</button>
             </div>
 
             <div class="col-4">
@@ -94,6 +109,78 @@
             </div>
         </div>
     </div>
+
+    <div class="container-xxl mx-5 my-5">
+        <div class="row card2">
+            <div style="height: 10%;">
+                <p class="ml-5 pt-3" style="font-size: 1.5rem;"><strong>Diet and Nutrition</strong></p>
+            </div>
+            <div class="col-4">
+                <div><img src="assets/diet.png" alt="diet"></div>
+            </div>
+
+            <div class="col-5 pt-5">
+                <p>The experiences of a woman during her pregnancy are both exciting as well as nervous. If you are someone who has gone through pregnancy or are currently going through one, you would understand the anxiety you have to just ensure everything about the baby (in your growing belly) is perfect! It is normal to be anxious, but it is also necessary to focus on the things in your hand – like eating healthy foodstuffs, keeping your body active and fit, and keeping your mind stress-free.
+                </p>
+                <button type="button" class="btn mt-2 mb-4" style="background-color: #7FC7E2; border-radius: 100px;">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl mx-5 my-5">
+        <div class="row card3">
+            <div style="height: 10%;">
+                <p class="ml-5 pt-3" style="font-size: 1.5rem;"><strong>Parenting</strong></p>
+            </div>
+            <div class="col-5 pt-5">
+                <p>Advice for moms surrounding pregnancy, baby care, and self-care from eating and wellness to fashion and products. Help for moms raising children and creating a stable home for their family.</p>
+                <p>Dedicated to helping moms discover the best for their baby, from books and checklists to products and ingredients. Gentle guidance paired with loving support from knowledgeable resources.</p>
+                <button type="button" class="btn mt-2 mb-4" style="background-color: #7879F1; opacity: 75%; border-radius: 100px;">Read More</button>
+            </div>
+
+            <div class="col-4 mt-5 ml-4">
+                <div><img src="assets/parenting.png" alt="parenting" style="height: 80%; width: 60%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="footer-dark">
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                <h3>Our Services</h3>
+                <ul>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Dashboard</a></li>
+                  <li><a href="#">Find gynecologist</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Virtual Space</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 item text">
+                <h3>Contact & Follow us</h3>
+                <div class="col item social" style="margin-top: 5%; margin-right: 100%;">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+  
+              </div>
+            </div>
+            <p class="copyright">Momature © 2023</p>
+          </div>
+        </footer>
+      </div>
+      </div>
+
 </body>
 
 </div>

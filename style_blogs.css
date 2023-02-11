@@ -1,7 +1,8 @@
-* {
+/* * {
     overflow-x: hidden;
-}
-.navbar-light .navbar-brand {
+} */
+
+/* .navbar-light .navbar-brand {
     color: #DE898E;
     font-size: 24px;
     margin-left: 5%;
@@ -18,11 +19,23 @@
     border-radius: 100px;
     width: 135px;
     height: 57px;
-}
+} */
 
-.section1 {
+/* .section1 {
     background-color: #DE898E;
     border-color: #DE898E;
+} */
+.img-center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.container-xxl .row {
+    padding: 1% 4% 3%;
 }
 
 .title {

@@ -13,185 +13,220 @@
   <link rel="stylesheet" href="styles.css">
   <title>Momature</title>
   <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <!--NAVBAR-->
-  <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-    <a class="navbar-brand" href="#">
-      <img src="assets/momature.png" width="50" height="50" class="d-inline-block align-top" alt="">
-      Momature
-    </a>
-    <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-      <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blogs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Community</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div class="container-fluid px-0"><!--NAVBAR-->
 
-  <!--CONTAINER 1-->
-  <div class="bg-container" style="background-image: url('assets/bg2.png');">
-    <div class="img-wrapper">
-      <img src="assets/homepage_1.png" alt="">
-    </div>
-    <div class="intro">
-      <h3><strong>Expected care for the ones expecting.</strong></h3>
-      <p>Most expectant parents have a lot of concerns, recieve a lot of unsolicited advice and sometimes feel quite
-        apprehensive about the many dos and don'ts, bizzare symptoms and nagging "is this normal?" feelings.</p>
-      <p>Worry not, <span style="color: #F96C74; font-weight: bold;">Momature</span> is there for you.</p>
-    </div>
-    <button type="button" class="btn btn-primary section1" style="margin-left: 7%; margin-top: 2%;">Get Started</button>
-  </div>
+    <section class="home" style="background-image: url('assets/bg2.png');">
+      <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img src="assets\logo.png" style="width: 100%; height: auto;" class="d-inline-block align-top" alt="">
+        </a>
+        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Community</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-  <!-- ADVERTISERS SERVICE CARD -->
-  <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
-    <div class="container">
-      <div class="row">
-        <div class="section-header text-center">
-          <h2 class="fw-bold fs-1">Our <span class="b-class-secondary"></span>Services
-          </h2>
-          <!-- <p class="sec-icon"><i class="fa-solid fa-gear"></i></p> -->
-        </div>
-      </div>
-      <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
-        <div class="col">
-          <div class="service-card">
-            <h3>Find a gynecologist</h3>
-            <p>
-              Find a gynecologist according to your location and timings.
-            </p>
+      <!--CONTAINER 1-->
+      <div class="row bg-container">
+        <div class="col-md-6 col-sm-12">
+          <div class="intro">
+            <h3><strong>Expected care for the ones expecting.</strong></h3>
+            <p class="pt-4">Most expectant parents have a lot of concerns, recieve a lot of unsolicited advice and
+              sometimes feel
+              quite
+              apprehensive about the many dos and don'ts, bizzare symptoms and nagging "is this normal?" feelings.</p>
+            <p>Worry not, <span style="color: #F96C74; font-weight: bold;">momature</span> is there for you.</p>
+
+            <button type="button" class="btn btn-primary section1 mt-4">Get
+              Started</button>
           </div>
+
         </div>
-        <div class="col">
-          <div class="service-card">
-            <h3>Dashboard</h3>
-            <p>
-              To keep track of all the pregnancy status, doctor appointments and overall fitness and health of the
-              mother.
-            </p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="service-card">
-            <h3>Blogs on varied topics</h3>
-            <p>
-              Explore articles on all pregnancy related - Diet, Exercise, crucial childcare and parenting.
-            </p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="service-card">
-            <h3>Join our forum</h3>
-            <p>
-              Get in touch with 1000+ mothers and experts to ask your queries and join discussions.
-            </p>
+        <div class="col-md-6 ">
+          <div class="img-wrapper">
+            <img src="assets/homepage_1.png" alt="">
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- ADVERTISERS SERVICE CARD ENDED -->
 
-  <!--CONTAINER 2-->
-  <div class="bg-container" style="background-image: url('assets/bg3.png'); padding-left: 0; margin-left: 0;">
-    <!-- <div class="img-wrapper">
-      <img src="assets/homepage_2.png" alt="" style="margin-top: -10%;">
-    </div> -->
-    <div class="intro">
-      <h2 class="fw-bold fs-1">
-        Find a nearest
-        <span class="b-class-secondary"></span>gynecologist for your loved ones
-      </h2>
-      <p>Get the nearest gynecologist using our directory of your area, with ratings and reviews from previous
-        patients to make the process of finding a perfect doctor seemingly easy.</p>
-    </div>
-    <button type="button" class="btn btn-primary section3" style="margin-left: 7%; margin-top: 2%;">Let's find</button>
+    </section>
 
-    <!--TESTIMONIALS-->
-    <div class="testimonials">
-      <div class="stories">
-        <h4><strong>SUCCESS STORIES</strong></h4>
-        <p>See how our users feel about us</p>
-      </div>
-
-      <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
-        <div class="col">
-          <div class="card">
-            <img src="assets/Paula.png" alt="Paula" style="width: 30%; margin: 0 5%;">
-            <p class="review">
-              I got to connect with an amazing community and AR experience was pretty unique to engage
-              with. Also, the tracking of my appointments made the whole pregnancy period easy..</p>
-            <p></p>
-            <p class="review">Thank you Team Momature.</p>
-            <p></p>
-            <p class="review"><strong>Paula</strong></p>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <!--COMMUNITY-->
-  <div class="bg-container2" style="background-image: url('assets/bg2.png'); padding-left: 0; margin-left: 0;">
-    <div class="img-wrapper2">
-      <img src="assets/homepage_3.png" alt="">
-    </div>
-    <div class="community">
-      <h3><strong>Connect with other mommies</strong></h3>
-      <p>Our forum connects you with other moms and moms-to-be to share your pregnancy experience. Talk about your journey through pregnancy, babies and parenting. Get support and advice on pregnancy symptoms, test results, healthy eating, diet, baby care, and more. </p>
-    </div>
-        <button type="button" class="btn btn-primary section1" style="margin-top: 2%; width: 15%;">Join our community</button>
-  </div>
-
-  <!--FOOTER-->
-  <div class="footer-dark">
-    <footer>
+    <!-- ADVERTISERS SERVICE CARD -->
+    <section id="advertisers" class="advertisers-service-sec py-5 pb-5">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-3 item">
-            <h3>Quick Links</h3>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-6 col-md-3 item">
-            <h3>Our Services</h3>
-            <ul>
-              <li><a href="#">Blogs</a></li>
-              <li><a href="#">Dashboard</a></li>
-              <li><a href="#">Find gynecologist</a></li>
-              <li><a href="#">Community</a></li>
-              <li><a href="#">Virtual Space</a></li>
-            </ul>
-          </div>
-          <div class="col-md-6 item text">
-            <h3>Contact & Follow us</h3>
-            <div class="col item social" style="margin-top: 5%; margin-right: 100%;">
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            </div>
-
+        <div class="row py-md-5 py-sm-3">
+          <div class="col-12 section-header text-center">
+            <h2 class="mx-auto">Our <span class="b-class-secondary"></span>Services
+            </h2>
+            <!-- <p class="sec-icon"><i class="fa-solid fa-gear"></i></p> -->
           </div>
         </div>
-        <p class="copyright">Momature © 2023</p>
+        <div class="row my-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
+          <div class="col">
+            <div class="service-card">
+              <h3>Find a gynecologist</h3>
+              <p>
+                Find a gynecologist according to your location and timings.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <h3>Dashboard</h3>
+              <p>
+                To keep track of all the pregnancy status, doctor appointments and overall fitness and health of the
+                mother.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <h3>Blogs on varied topics</h3>
+              <p>
+                Explore articles on all pregnancy related - Diet, Exercise, crucial childcare and parenting.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <h3>Join our forum</h3>
+              <p>
+                Get in touch with 1000+ mothers and experts to ask your queries and join discussions.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+    </section>
+    <!-- ADVERTISERS SERVICE CARD ENDED -->
+
+    <!--CONTAINER 2-->
+    <div class="gynecologists">
+      <!-- <div class="img-wrapper">
+      <img src="assets/homepage_2.png" alt="" style="margin-top: -10%;">
+       </div> -->
+      <div class="intro">
+        <h2 class="fw-bold fs-1">
+          Find a nearest
+          <span class="b-class-secondary"></span>gynecologist for your loved ones
+        </h2>
+        <p class="pt-4">Get the nearest gynecologist using our directory of your area,<br> with ratings and reviews from
+          previous
+          patients to make the <br> process of finding a perfect doctor seemingly easy.</p>
+
+        <button type="button" class="btn section3 mt-4">Let's
+          find</button>
+      </div>
+
+
+      <!--TESTIMONIALS-->
+      <div class="testimonials mb-5">
+
+
+        <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-2 justify-content-center">
+          <div class="col-md-6 col-sm-12">
+            <div class="stories">
+              <h4><strong>SUCCESS STORIES</strong></h4>
+              <p>See how our users feel about us</p>
+            </div>
+          </div>
+
+          <div class="testi col-md-6 col-sm-12 px-md-5">
+            <div class="card ">
+              <img src="assets/Paula.png" alt="Paula" style="width: 30%; margin: 0 5%;">
+              <p class="review">
+                I got to connect with an amazing community and AR experience was pretty unique to engage
+                with. Also, the tracking of my appointments made the whole pregnancy period easy..</p>
+              <p></p>
+              <p class="review">Thank you Team Momature.</p>
+              <p></p>
+              <p class="review"><strong>Paula</strong></p>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--COMMUNITY-->
+    <div class="row bg-container2 ml-0 mt-5">
+      <div class="col-md-6 ">
+        <div class="img-wrapper2 col-sm-12">
+          <img src="assets/homepage_3.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 px-3">
+        <div class="community">
+          <h3><strong>Connect with other mommies</strong></h3>
+          <p class="pt-4">Our forum connects you with other moms and moms-to-be to share your pregnancy experience. Talk
+            about your
+            journey through pregnancy, babies and parenting. Get support and advice on pregnancy symptoms, test results,
+            healthy eating, diet, baby care, and more. </p>
+
+          <button type="button" class="btn section1 my-4">Join our
+            community</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--FOOTER-->
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Our Services</h3>
+              <ul>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Find gynecologist</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Virtual Space</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Contact & Follow us</h3>
+              <div class="col item social" style="margin-top: 5%; margin-right: 100%;">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+
+            </div>
+          </div>
+          <p class="copyright">Momature © 2023</p>
+        </div>
+      </footer>
+    </div>
+
   </div>
 
 </body>

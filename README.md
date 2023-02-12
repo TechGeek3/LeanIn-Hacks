@@ -71,13 +71,6 @@ Community is meant for people to share their queries, journey with others and se
 <img src="ReadMe\virtual space.jpeg" alt="Virtual Space" width="400/" height="500/">
 <br>
 
-### Bot
-<hr>
-Bot makes the user experience engaging and fun to interact with.It shows the user what needs the website caters to.
-
-<img src="ReadMe\bot.jpeg" alt="Bot" width="400/" height="500/">
-<br>
-
 ### Contact
 <hr>
 Users can contact the Momature Team in case of queries by dropping the email and submitting the form.
@@ -89,7 +82,7 @@ Users can contact the Momature Team in case of queries by dropping the email and
 <hr>
 
 ## Useful Links
-- [Demo Video]()
+- [Demo Video](https://vimeo.com/798122188)
 - [Deployed Website](https://LeanIn-Hacks.palakjain03.repl.co)
 <br/>[(Back to top)](#table-of-contents)
 <hr>

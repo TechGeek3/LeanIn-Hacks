@@ -414,3 +414,36 @@ body {
     padding-left: 15%;
   }
 }
+
+
+
+/* **************************************** CONTACT ******************************88 */
+
+.contact-form {
+  margin: 5rem 10rem 2rem;
+  padding: 0rem 10rem;
+  /* background-color: #302c24; */
+  text-align: left;
+}
+
+input,
+textarea {
+
+  border-radius: 0;
+  margin: 8px 0rem 2rem;
+}
+
+.contact-form-submit {
+  background-color: var(--dark-section);
+  color: var(--light-colour);
+  border-radius: 0;
+  padding: .5rem 4rem;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.contact-form-submit:hover {
+  background-color: var(--light-section);
+  color: var(--bg-color);
+
+}

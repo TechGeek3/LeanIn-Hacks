@@ -68,7 +68,7 @@ Community is meant for people to share their queries, journey with others and se
 <hr>
 
 
-<img src="ReadMe\" alt="Virtual Space" width="700/">
+<img src="ReadMe\virtual space.jpeg" alt="Virtual Space" width="400/" height="500/">
 <br>
 
 ### Bot
@@ -90,7 +90,7 @@ Users can contact the Momature Team in case of queries by dropping the email and
 
 ## Useful Links
 - [Demo Video]()
-- [Deployed Website]()
+- [Deployed Website](https://LeanIn-Hacks.palakjain03.repl.co)
 <br/>[(Back to top)](#table-of-contents)
 <hr>
 

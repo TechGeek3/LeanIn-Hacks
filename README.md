@@ -41,42 +41,36 @@ Momature is a one-stop solution for all problems affecting pregnant women and mo
 Home Page contains information about various sections of website like services, community, dashboard etc.
 
 <img src="ReadMe\home.png" alt="Home Page" width="700"/>
-<br>
 
 ### Blogs
 <hr>
 It contains blogs on various topics like exercise, diet, nutrition and parenting at one place for the ease of users.
 
 <img src="ReadMe\blogs.png" alt="Blogs" width="700/">
-<br>
 
 ### Music
 <hr>
 This page is meant for providing relaxation and enjoyment to users. They can play various songs from the list as per their preference and need.
 
 <img src="ReadMe\music.png" alt="Music" width="700/">
-<br>
 
 ### Community
 <hr>
 Community is meant for people to share their queries, journey with others and seek and provide help for people in need.
 
 <img src="ReadMe\community.png" alt="Community" width="500/">
-<br>
 
 ### Virtual Space
 <hr>
 
 
 <img src="ReadMe\virtual space.jpeg" alt="Virtual Space" width="400/" height="500/">
-<br>
 
 ### Contact
 <hr>
 Users can contact the Momature Team in case of queries by dropping the email and submitting the form.
 
 <img src="ReadMe\contact.png" alt="Contact" width="700/">
-<br>
 
 <br/>[(Back to top)](#table-of-contents)
 <hr>
